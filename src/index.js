@@ -47,9 +47,7 @@ searchbox.addEventListener(
           return error;
         });
     }
-  }),
-  DEBOUNCE_DELAY
-);
+  }, DEBOUNCE_DELAY));
 
 function renderCounrtiesList({ flags, name }) {
   return ` 
